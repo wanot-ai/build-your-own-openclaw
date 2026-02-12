@@ -1,0 +1,12 @@
+[project]
+name = "build-your-own-openclaw"
+version = "0.1.0"
+description = "Build your own AI assistant from scratch, based on NanoClaw's architecture"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.40.0",
+    "schedule>=1.2.0",
+]
+
+[project.scripts]
+nanoclaw = "nanoclaw:main"
